@@ -1,5 +1,0 @@
-salaries = list(map(int, input("").split()))
-print("salaries:", *salaries)
-biggest = max(salaries)
-smallest = min(salaries)
-print(biggest-smallest)
